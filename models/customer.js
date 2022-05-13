@@ -78,6 +78,14 @@ class Customer {
       );
     }
   }
+
+  fullname() {
+    const fullname = this.firstName + " " + this.lastName;
+    return fullname;
+    }
+
 }
+
+  
 
 module.exports = Customer;
